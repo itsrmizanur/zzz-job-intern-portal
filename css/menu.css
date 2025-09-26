@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo {
+  font-size: 24px;
+}
+.menu ul {
+  display: flex;
+  gap: 5px;
+}
+.menu ul li a{
+  padding: 8px 16px;
+  color: black;
+}
+
+.menu-right button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.menu-right button a {
+  color: black;
+}
