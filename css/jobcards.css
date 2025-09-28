@@ -1,0 +1,74 @@
+.job {
+  background-color: rgb(230, 230, 230);
+  margin: 32px auto;
+  padding: 32px 0;
+}
+.job>h3 {
+  text-align: center;
+
+}
+.job-cards {
+  margin: 24px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 16px;
+  justify-content: center;
+}
+.job-card {
+  width: 300px;
+  padding: 24px 16px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.job-up {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.job-up h4 {
+  font-size: 16px;
+}
+.job-up h5 {
+  text-align: right;
+  font-weight: normal;
+}
+.job-card p {
+  font-size: 14px;
+  border: 1px solid black;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+.job-salary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.job-salary h5 {
+  font-weight: normal;
+}
+.job-details {
+  display: flex;
+  justify-content: center;
+}
+.job-details button {
+  margin-top: 16px;
+  padding: 8px 16px;
+}
+.job-details button a{
+  color: black;
+}
+.browse-more-jobs {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.browse-more-jobs button {
+  padding: 8px 16px;
+}
+
+.browse-more-jobs button a{
+  color: black;
+}
